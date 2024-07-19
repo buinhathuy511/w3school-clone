@@ -653,18 +653,18 @@ h3.topic__title {
     
 }
 
-/**footer-top**/
-.footer-top ul{
+/**footer-link**/
+.footer-link ul{
     display: flex;
 }
-.footer-top ul li{
+.footer-link ul li{
     margin-right: 50px;
 }
-.footer-top a{
+.footer-link a{
     color: #f2f4a3;
     position: relative;
 }
-.footer-top a::after{
+.footer-link a::after{
     position: absolute;
     display: block;
     content: "";
@@ -672,59 +672,59 @@ h3.topic__title {
     height: 1px;
     background: #f2f4a3;
 }
-.footer-top a:hover::after{
+.footer-link a:hover::after{
     width: 100%;
     color: #f2f4a3;
 
 }
 
 
-/**footer-main**/
-.footer-main{
+/**footer__table**/
+.footer__table{
     display: flex;
     margin: 30px 0;
 }
-.footer-main p{
+.footer__table p{
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 50px;
 }
 
-.footer-main ul{
+.footer__table ul{
     margin-right: 100px;
 }
-.footer-main ul li{
+.footer__table ul li{
     padding-bottom: 8px;
     font-size: 12px;
 }
-.footer-main ul li:hover a{
+.footer__table ul li:hover a{
     color: #f2f4a3;
 }
 
-/**footer-bottom**/
-.footer-bottom .footer-bottom-social{
+/**footer-contact**/
+.footer-contact{
     display: flex;
     margin-bottom: 50px;
     align-items: center;
 }
-.footer-bottom .footer-bottom-social ul{
+.footer-contact ul{
     display: flex;
 }
-.footer-bottom .footer-bottom-social ul li{
+.footer-contact ul li{
     margin-right: 15px;
     font-size: 24px;
 }
-.footer-bottom .footer-bottom-social ul li:hover a{
+.footer-contact ul li:hover a{
     color: #f2f4a3;
 }
-.footer-bottom .footer-bottom-social > a{
+.footer-contact > a{
     margin-right: 10px;
     position: relative;
 }
-.footer-bottom .footer-bottom-social > a:hover{
+.footer-contact > a:hover{
     color: #f2f4a3;
 }
-.footer-bottom .footer-bottom-social > a::after{
+.footer-contact > a::after{
     position: absolute;
     display: block;
     content: "";
@@ -732,29 +732,29 @@ h3.topic__title {
     height: 1px;
     background: #f2f4a3;
 }
-.footer-bottom .footer-bottom-social > a:hover::after{
+.footer-contact > a:hover::after{
     width: 100%;
     color: #f2f4a3;
 }
 
-/**footer-bottom-desc**/
-.footer-bottom-desc p{
+/**footer__description**/
+.footer__desciption p{
     font-size: 14px;
 }
-.footer-bottom-desc a{
+.footer__desciption a{
     text-decoration: underline;
 }
-.footer-bottom-desc a:hover{
+.footer__desciption a:hover{
     color: #f2f4a3;
 }
 
-/**footer-bottom-copyright**/
-.footer-bottom-copyright{
+/**footer-copyright**/
+.footer-copyright{
     font-size: 14px;
 }
-.footer-bottom-copyright a{
+.footer-copyright a{
     text-decoration: underline;
 }
-.footer-bottom-copyright a:hover{
+.footer-copyright a:hover{
     color: #f2f4a3
 }
